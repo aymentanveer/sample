@@ -1,0 +1,99 @@
+/*Display resolution of this site is 1366 x 768*/
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0.4%;
+    margin-bottom: 3%;
+    font-size: 150%;
+}
+h2{
+    color: #000000;
+    font-size: 170%;
+}
+section a{
+    color: #0e0bad;
+}
+section a:visited{
+    color: #832dd3;
+}
+
+nav>a{
+    background:rgba(255, 255, 255, 0.35);
+    color: #000000;
+    margin: 4.5%;
+    text-decoration: none;
+    font-size: 110%;
+    border-radius: 5px;
+    padding: 20px 65px;
+}
+nav{
+    text-align: center;
+    margin-bottom: 3.3%;
+}
+nav>a:hover{
+    background:rgba(255, 255, 255, 0.6);
+}
+.active{
+    background:rgba(255, 255, 255, 1);
+}
+header{
+    background-color: #c7c7c7;
+    background-image: url("../images/flywheel.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    padding: 30px;
+}
+body{
+    margin: 20px;
+    padding:auto;
+}
+.left{
+    width: 200px;
+    height: 105vh;
+    background: #787a02;
+    float: left;
+}
+aside>a>img{
+    width: 70%;
+    display: block;
+    border: 2px solid #000000;
+    margin: 15% auto;
+}
+section{
+    font-size: 120%;
+    background: #ffffff;
+    padding: 1px 10px 1px 210px;
+}
+table{
+    margin: auto;
+    font-size: 110%;
+    width: 80%;
+    line-height: 110%;
+}
+td,th{
+    font-family:Calibri, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 10px;
+}
+td:first-child,th:first-child{
+    text-align: left;
+}
+tr:nth-child(n+2){
+    background: #dcfad7;
+    opacity: 0.8;
+    color: #8a8a8a;
+    font-weight: 550;
+}
+tr:nth-child(n+2):hover{
+    opacity: 1; 
+}
+tr:first-child th{
+    background: linear-gradient(to bottom, #86a04a, #b6d461);
+    color: #FFFFFF;
+    font-family:Calibri, Georgia, Times, 'Times New Roman', serif;
+    border:1px solid #c3e26f;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;    
+    border-bottom:6px solid #c3e26f;
+}
